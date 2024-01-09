@@ -1,0 +1,73 @@
+---
+layout: default
+title: Gatito Mimoso
+---
+
+<div class="w3-content" style="max-width:1400px">
+  	<div class="w3-col l8 s12">
+	    <div id="main" role="main">
+        <section class="experience section-padding">
+
+            {% for post in paginator.posts %}
+              <div class="grid col-1 med-col-1 sm-col-1">
+                  
+                    <div class="card-blog">
+                      <a class="post-link" href="{{ post.url }}">
+                        <div class="grid col-2 med-col-2 sm-col-1 card-content">
+                          <img src="{{ post.thumbnail }}" alt="thumbnail" style="width:100%">
+                          <div class="card-blog-content">
+                            <h3>{{ post.title }}</h3>
+                            {%- assign date_format = site.minima.date_format | default: "%d/%m/%Y" -%}
+                            <time datetime="{{ post.date }}"><p class="timestamp">{{ post.date | date: date_format }}</p></time>
+                            <p class="excerpt">{{ post.excerpt }}</p> 
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  
+              </div>
+            {% endfor %}
+
+              <!-- Pagination links -->
+          <div class="pagination">
+            {% if paginator.previous_page %}
+              <a href="{{ paginator.previous_page_path }}" class="previous">
+                <<
+              </a>
+            {% else %}
+              <span class="previous"> << </span>
+            {% endif %}
+            <span class="page_number ">
+              Página: {{ paginator.page }} de {{ paginator.total_pages }}
+            </span>
+            {% if paginator.next_page %}
+              <a href="{{ paginator.next_page_path }}" class="next"> >> </a>
+            {% else %}
+              <span class="next "> >> </span>
+            {% endif %}
+          </div>
+
+        </section>
+          
+      </div>
+	   </div>
+</div>
+
+<div class="w3-col l4">
+	<div class="w3-card w3-margin w3-margin-top">
+    <img src="{{site.url}}/assets/images/hamelin4.jpg" style="width:100%">
+    <div class="w3-container w3-white">
+  	 <h4><b>¿Gatito Mimoso?</b></h4>
+  	 <p>Gatito Mimoso es un boletín de izquierza, de filiación marxista-leninista. Sin embargo,
+      tiene el compromiso de no jugar nunca para la derecha y los poderes concentrados, jamás
+      en desmedro del pueblo y los trabajadores. Nunca un "Gatito mimoso del poder económico". </p>
+    </div>
+	</div>
+  <hr>
+  <!--div class="w3-card w3-margin w3-margin-top">
+  	<div class="w3-container w3-white">
+  		<p>Colocar Aquí otros elementos HTML</p>
+      <br>
+    </div>
+  </div--->
+</div>

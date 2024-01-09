@@ -1,0 +1,299 @@
+/* Mis MODS */
+
+body{
+	background-color: #e8e8e8;}
+h1, h2, h3, h4, h5{
+	color: #39a8c1;}
+a{
+	color: #39a8c1;}
+a:visited {
+	color: #4e745c;}
+a:hover{
+	color: #4e745c;}
+*,*:after,*:before{
+	border-radius: 3px;}
+.entry-meta{
+	color: #5e919c;}
+.entry-header, .entry-image{
+	border-radius: 0px;}
+#post-index article{
+	box-shadow: 0 0 0 0,0 6px 12px rgba(34, 34, 34, 0.42);}
+.w3-card, .w3-card-2{
+	box-shadow: 0 0 0 0,0 6px 12px rgba(34, 34, 34, 0.42);}
+.w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
+.w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{content:"";display:table;clear:none; /* original:both; */}
+.w3-border-0{border:0!important}.w3-border{border:1px solid #098aa6!important;/* original ##ccc*/}
+.w3-margin-top{margin-top:50px!important;/* original 16px */}
+.w3-padding-small{padding:8px 12px!important;/* original 4px 8px*/}
+.w3-button:hover{color:#000!important;background-color:#06b3cb!important; /*original #ccc*/}
+.footer-wrapper{clear: both;/* add */}
+
+.site-gallery{
+	    padding: 50px;
+	    background-color: #FFF;
+	    box-shadow: 0 0 0 0,0 6px 12px rgba(34, 34, 34, 0.42);}
+.gallery-cell{
+	display: inline-block;
+	margin: 12px;}
+.divisor{
+    border-top-width: 0px;
+	border-top: 1px solid #403B3B;}
+
+
+/* --- Paleta de colores1 (Cyan) --- */
+/*
+Dark Cyan
+#049cb4
+
+Dark Turquoise
+#06b3cb
+
+Medium Turquoise
+#39a8c1
+
+Dark Cyan
+#098aa6
+
+Medium Aquamarine
+#7bbace
+*/
+/* --- Paleta de colores (Verdes) --- */
+/*
+Sienna
+#ab5b3e
+
+Dark Khaki
+#bd9a65
+
+Dark Slate Gray
+#2c4136
+
+Dark Olive Green
+#796649
+
+Dark Slate Gray
+#4e745c
+*/
+/* ============================================================
+                      BLOG
+============================================================= */
+
+.card-blog {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 98%;
+  margin-bottom: 1em;
+  background-color: #FFF;
+  max-height: 250px;
+  overflow: hidden;
+}
+
+.card-blog:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+}
+
+.card-content {
+  column-gap: 0 !important;
+  row-gap: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.card-blog-content {
+  background-color: var(--bg-profile-dark);
+  color: var(--font-main-titles);
+  padding: 25px 16px;
+}
+
+.card-blog-content h3 {
+  color: var(--color-main);
+}
+
+.timestamp {
+  color: #ccc !important;
+}
+/* ============================================================
+                   		POST
+============================================================= */
+.post-content {
+	background-color: #EEE !important;
+	padding: 2em;
+}
+.timestamp-post {
+	color: #AAA !important;
+}
+/* ============================================================
+                   CARDS Portfolio
+============================================================= */
+.card-p {
+  padding: 0;
+  margin: 1% auto 2% auto;
+  border-radius: 1px;
+  position: relative;
+  text-align: center;
+  transition: .3s ease-out;
+  height: max-content;
+}
+.card-p .card-img: {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.card-img {
+  max-width: 440px;
+  max-height: 300px;
+}
+.card-p:hover {
+  transform: translateY(10px);
+}
+.card-p:hover:before {
+  opacity: 1;
+}
+.card-p:hover .details {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.card-p:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 1px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  transition: 0.5s;
+  opacity: 0;
+}
+.card-p:hover::before {
+    border-bottom: 4px solid var(--color-main);
+}
+.card-p .details {
+  position: absolute;
+  z-index: 3;
+  color: #FFF;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s;
+  top: 0;
+  left: 0;
+  margin: 15% 20%;
+}
+.card-p .details h4 {
+  margin: 0px;
+}
+.card-p .details p {
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-top: 8px;
+}
+.card-p .details button {
+  margin-top: 1em;
+  padding: 0.6em;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background: #FFF;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.card-p .details button:hover {
+  background: var(--color-main);
+  color: #FFF;
+}
+/*=========================
+  * GRID *
+=========================*/
+.grid {
+  display: grid;
+  gap: 20px 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+/* Tamaño grande - PC y TV */
+.col-1 {grid-template-columns: repeat(1, 1fr);}
+.col-2 {grid-template-columns: repeat(2, 1fr);}
+.col-3 {grid-template-columns: repeat(3, 1fr);}
+.col-4 {grid-template-columns: repeat(4, 1fr);}
+.col-5 {grid-template-columns: repeat(5, 1fr);}
+.col-6 {grid-template-columns: repeat(6, 1fr);}
+.col-7 {grid-template-columns: repeat(7, 1fr);}
+.col-8 {grid-template-columns: repeat(8, 1fr);}
+.col-9 {grid-template-columns: repeat(9, 1fr);}
+.col-10 {grid-template-columns: repeat(10, 1fr);}
+.col-11 {grid-template-columns: repeat(11, 1fr);}
+.col-12 {grid-template-columns: repeat(12, 1fr);}
+
+.span-1 {grid-column: span 1;}
+.span-2 {grid-column: span 2;}
+.span-3 {grid-column: span 3;}
+.span-4 {grid-column: span 4;}
+.span-5 {grid-column: span 5;}
+.span-6 {grid-column: span 6;}
+.span-7 {grid-column: span 7;}
+.span-8 {grid-column: span 8;}
+.span-9 {grid-column: span 9;}
+.span-10 {grid-column: span 10;}
+.span-11 {grid-column: span 11;}
+.span-12 {grid-column: span 12;}
+
+/* Tamaño Mediano - Tablets y Readers */
+@media screen and (max-width: 992px){
+  .med-col-1 {grid-template-columns: repeat(1, 1fr);}
+  .med-col-2 {grid-template-columns: repeat(2, 1fr);}
+  .med-col-3 {grid-template-columns: repeat(3, 1fr);}
+  .med-col-4 {grid-template-columns: repeat(4, 1fr);}
+  .med-col-5 {grid-template-columns: repeat(5, 1fr);}
+  .med-col-6 {grid-template-columns: repeat(6, 1fr);}
+  .med-col-7 {grid-template-columns: repeat(7, 1fr);}
+  .med-col-8 {grid-template-columns: repeat(8, 1fr);}
+  .med-col-9 {grid-template-columns: repeat(9, 1fr);}
+  .med-col-10 {grid-template-columns: repeat(10, 1fr);}
+  .med-col-11 {grid-template-columns: repeat(11, 1fr);}
+  .med-col-12 {grid-template-columns: repeat(12, 1fr);}
+
+  .med-span-1 {grid-column: span 1;}
+  .med-span-2 {grid-column: span 2;}
+  .med-span-3 {grid-column: span 3;}
+  .med-span-4 {grid-column: span 4;}
+  .med-span-5 {grid-column: span 5;}
+  .med-span-6 {grid-column: span 6;}
+  .med-span-7 {grid-column: span 7;}
+  .med-span-8 {grid-column: span 8;}
+  .med-span-9 {grid-column: span 9;}
+  .med-span-10 {grid-column: span 10;}
+  .med-span-11 {grid-column: span 11;}
+  .med-span-12 {grid-column: span 12;}
+}
+/* Tamaño Pequeño - Celulares */
+@media screen and (max-width: 576px){
+  .sm-col-1 {grid-template-columns: repeat(1, 1fr);}
+  .sm-col-2 {grid-template-columns: repeat(2, 1fr);}
+  .sm-col-3 {grid-template-columns: repeat(3, 1fr);}
+  .sm-col-4 {grid-template-columns: repeat(4, 1fr);}
+  .sm-col-5 {grid-template-columns: repeat(5, 1fr);}
+  .sm-col-6 {grid-template-columns: repeat(6, 1fr);}
+  .sm-col-7 {grid-template-columns: repeat(7, 1fr);}
+  .sm-col-8 {grid-template-columns: repeat(8, 1fr);}
+  .sm-col-9 {grid-template-columns: repeat(9, 1fr);}
+  .sm-col-10 {grid-template-columns: repeat(10, 1fr);}
+  .sm-col-11 {grid-template-columns: repeat(11, 1fr);}
+  .sm-col-12 {grid-template-columns: repeat(12, 1fr);}
+
+  .sm-span-1 {grid-column: span 1;}
+  .sm-span-2 {grid-column: span 2;}
+  .sm-span-3 {grid-column: span 3;}
+  .sm-span-4 {grid-column: span 4;}
+  .sm-span-5 {grid-column: span 5;}
+  .sm-span-6 {grid-column: span 6;}
+  .sm-span-7 {grid-column: span 7;}
+  .sm-span-8 {grid-column: span 8;}
+  .sm-span-9 {grid-column: span 9;}
+  .sm-span-10 {grid-column: span 10;}
+  .sm-span-11 {grid-column: span 11;}
+  .sm-span-12 {grid-column: span 12;}
+}
