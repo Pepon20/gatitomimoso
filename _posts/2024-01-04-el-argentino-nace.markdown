@@ -4,8 +4,8 @@ layout: post
 title:  "El argentino nace donde quiere"
 date:   2024-01-04 22:07:41 -0300
 excerpt: "¿Desde cuándo y hasta dónde se es «argentino»?"
-thumbnail: http://localhost:4000/assets/images/hamelin4.jpg
-categories: argentino, sentimiento
+thumbnail: http://gatitomimoso.ar/assets/images/bandera-argentina-portada.jpg
+categories: argentino sentimiento
 ---
 
 En diciembre de 2022 vivimos una catarata de emociones juntas. No fue solo la ansiada consagración mundialista, fue el reencontrarnos en un sentimiento. La confirmación que "el argentino nace donde quiere".
