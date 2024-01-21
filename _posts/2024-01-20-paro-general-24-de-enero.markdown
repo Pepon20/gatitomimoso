@@ -3,7 +3,7 @@ layout: post
 
 title:  "Paro General 24 de Enero de 2024"
 date:   2024-01-20 22:07:41 -0300
-excerpt: Por que la patria se defiende todos los días: paro por tiempo indeterminado
+excerpt: "Por que la patria se defiende todos los días: paro por tiempo indeterminado"
 thumbnail: http://gatitomimoso.ar/assets/images/paro-cgt_24.jpg
 categories: argentina paro milei duende trabajadores
 ---
