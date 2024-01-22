@@ -4,10 +4,10 @@ layout: post
 title:  "Paro General 24 de Enero de 2024"
 date:   2024-01-20 22:07:41 -0300
 excerpt: "Por que la patria se defiende todos los días: paro por tiempo indeterminado"
-thumbnail: http://gatitomimoso.ar/assets/images/paro-cgt_24.jpg
+thumbnail: https://gatitomimoso.ar/assets/images/paro-cgt_24.jpg
 categories: argentina paro milei duende trabajadores
 ---
-![Paro General CGT](http://gatitomimoso.ar/assets/images/paro-cgt_24.jpg)
+![Paro General CGT](https://gatitomimoso.ar/assets/images/paro-cgt_24.jpg)
 
 Las políticas económicas de Milei que, favorecen un enfoque de libre mercado, han llevado a una mayor desigualdad económica, lo que no es ninguna novedad teniendo en cuenta experiencias anteriores en el país y en el mundo. Los beneficios de estas políticas a menudo se acumulan en la parte superior de la escala de ingresos, mientras que los trabajadores, y sobre todo los de bajos ingresos, pueden verse afectados negativamente.
 

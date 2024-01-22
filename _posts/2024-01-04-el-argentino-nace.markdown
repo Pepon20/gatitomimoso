@@ -4,7 +4,7 @@ layout: post
 title:  "El argentino nace donde quiere"
 date:   2024-01-04 22:07:41 -0300
 excerpt: "¿Desde cuándo y hasta dónde se es «argentino»?"
-thumbnail: http://gatitomimoso.ar/assets/images/bandera-argentina-portada.jpg
+thumbnail: https://gatitomimoso.ar/assets/images/bandera-argentina-portada.jpg
 categories: argentino sentimiento
 ---
 
