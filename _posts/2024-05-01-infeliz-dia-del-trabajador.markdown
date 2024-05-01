@@ -2,7 +2,7 @@
 layout: post
 title:  "Infeliz Día del Trabajador"
 date:   2024-05-01 18:15:00 -0300
-excerpt: "Por que la patria se defiende todos los días: paro por tiempo indeterminado"
+excerpt: "Uo de los días del Trabajador más triste de la historia Argentina"
 thumbnail: https://gatitomimoso.ar/assets/images/esclavitud.jpg
 categories: argentina milei presiduende trabajadores
 ---
