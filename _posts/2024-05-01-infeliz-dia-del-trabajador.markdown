@@ -32,7 +32,7 @@ Y no contentos con ellos, se plantean más reformas que eleven las horas laboral
 > *" ...El sujeto neoliberal como empresario de sí mismo no es capaz de establecer con los otros relaciones que sean libres de cualquier
 > finalidad." -Byung Chul Han -*
 
-¿Cómo puede un trabajador de este país puede defender esto? No hay ninguna explicación, lógica ni razonable. Solo discursos armados por otros para repetir hasta el idiotismo: la corrupción... se robaron todo... vivíamos una fantasía...
+¿Cómo puede un trabajador de este país defender esto? No hay ninguna explicación, lógica ni razonable. Solo discursos armados por otros para repetir hasta el idiotismo: la corrupción... se robaron todo... vivíamos una fantasía...
 
 **Ante nuestra absoluta pasividad... nos han ganado. Nos esclavizaron de nuevo.**
 
